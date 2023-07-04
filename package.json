@@ -1,5 +1,14 @@
 {
   "dependencies": {
-    "cypress": "^12.16.0"
+    "@lensesio/cypress-websocket-testing": "^1.0.1",
+    "cypress": "^12.16.0",
+    "socket.io-client": "^4.7.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
   }
 }
